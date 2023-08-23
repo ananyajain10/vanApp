@@ -1,0 +1,92 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    top: 0;
+    right: 0;
+    height: 70px;
+    background-color: rgb(135, 124, 124);
+    padding: 0px;
+
+}
+.nav-item{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   
+
+}
+.nav-element{
+    padding: 5%;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.home{
+    background-color: rgb(235, 177, 177);
+    border-radius: 2px;
+    bottom: 0;
+    box-shadow: 5cm;
+    padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.buttonH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: black;
+    color: pink;
+    width: 100px;
+    height: 40px;
+    
+
+    
+}
+
+.about{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: aqua;
+
+}
+
+.about-img{
+    width: 100%;
+
+
+}
+
+.about-card{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+   border-radius: 5px;
+   box-shadow: 20px;
+   width: 70%;
+}
+.buttonA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: black;
+    color: pink;
+    width: 100px;
+    height: 40px;
+   
+
+    
+}
